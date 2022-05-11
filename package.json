@@ -1,0 +1,21 @@
+{
+  "name": "password",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "node ./create.js",
+    "signin": "node ./signin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "argon2": "^0.28.5",
+    "csprng": "^0.1.2",
+    "sqlite3": "^5.0.8"
+  }
+}
